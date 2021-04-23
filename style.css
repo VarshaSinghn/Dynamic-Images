@@ -1,0 +1,17 @@
+.card {
+	border: 1px solid black;
+	margin: 10px;
+	width: 100%;
+	height: 200px;
+}
+.para {
+	font-size: 13px;
+}
+.mainDiv {
+	margin-left: 200px;
+}
+.testimonial {
+	color: #22b78e;
+}
+.accordion {
+}
