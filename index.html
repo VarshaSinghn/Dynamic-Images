@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Dynamic Images</title>
 		<link rel="stylesheet" href="style.css" />
 		<link
 			rel="stylesheet"
@@ -13,11 +13,29 @@
 		/>
 	</head>
 	<body>
+
+		<!-- List of doctors -->
+		<h2 class="docHeading m-5">Doctors</h2>
+		<div id="doctor" class="row"></div>
+		<!-- list of warningSign -->
+		<div class="container">
+			<h3 class="warningHeading mt-5 mb-5">The warning signs of Immune deficiency</h3>
+			<div id="warningSign" class="row"></div>
+		</div>
+		<!-- list of Bone Marrows -->
+		<div class="container" mt-5>
+			<div id="boneMarrow"></div>
+		</div>
+		<!-- testimonials -->
 		<div class="mainDiv">
 			<h3 class="testimonial font-weight-bold mt-5">Testinomial</h3>
-			<p class="font-italic">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+			<p class="font-italic">
+				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+			</p>
 			<div id="accordion" class="row"></div>
 		</div>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
 		<script src="cardData.js"></script>
 		<script src="script.js"></script>
 	</body>

@@ -15,3 +15,72 @@
 }
 .accordion {
 }
+.docHeading {
+	font-weight: bold;
+	color: #4eb88e;
+}
+.warningHeading {
+	font-weight: bold;
+	color: #4eb88e;
+}
+.nameHead {
+	color: #1d5aa6;
+	font-size: 22px;
+	letter-spacing: 1.76px;
+	font-weight: bolder;
+}
+.para1 {
+	line-height: 0px;
+	color: #1d5aa6;
+	font-family: StagSans;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+.para2 {
+	color: #1d5aa6;
+}
+.doctorDesc {
+	color: #000000;
+	font-family: StagSans;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	width: 90%;
+	margin-left: 25px;
+}
+.knowMore-Btn {
+	background: linear-gradient(95deg, #2ec4b8, #6078ea);
+	border: none;
+}
+.line {
+	border: 1px solid #4eb88e;
+	width: 10%;
+}
+.childDoctor {
+	margin: auto;
+	text-align: center;
+	width: 45%;
+	height: 470px;
+	background-color: #f9f9ff;
+}
+
+.warningSigns {
+	border: 1px solid #e5eaff;
+	margin-bottom: 25px;
+	background-color: #ffffff;
+}
+
+.warningPara {
+	width: 80%;
+	font-size: 13px;
+	margin-left: 20px;
+}
+
+.ques {
+	color: #1d5aa6;
+	font-family: StagSans;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: bolder;
+}
